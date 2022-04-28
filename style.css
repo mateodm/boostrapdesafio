@@ -1,0 +1,256 @@
+body {
+    font-family: 'Cinzel', serif;
+}
+/* Elemento base */
+::-webkit-scrollbar {
+    width: 16px;
+  }
+  
+  /* Carril */
+  ::-webkit-scrollbar-track {
+    background: #c9c9c9;
+    border-radius: 50px
+  }
+   
+  /* Manejador */
+  ::-webkit-scrollbar-thumb {
+    background: #7c7c7d;
+    border-radius: 50px;
+  }
+  
+  /* Manejador hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7c7c7d;
+  }
+  
+li ul {
+    text-decoration: none;
+}
+header {
+    font-size: 3.45vh;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    border: solid 1px;
+}
+.navbar-toggler-icon { /* Icono Hamburguesa, arreglar dsp */
+}
+nav img {
+    height: 8vh;
+    margin-top: 1vh;
+}
+.navbar-brand {
+    margin-left: 3.4vw;
+}
+.navbar-nav {
+    color: #c9c9c9;
+}
+.nav-link {
+    margin-left: 8.2vw;
+    margin-top: 1vh;
+}
+.nav-link:hover {
+    font-weight: 500;
+    transition: all 0.3s;
+    -o-transition-delay: 0.85s;
+    transition-delay: 0.25s;
+}
+.boxheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+.background {
+    background-repeat: no-repeat;
+    background-color: #c9c9c9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1.5vh;
+}
+.boxfooter {
+    background-color: #7c7c7d;
+    color: #c9c9c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
+.footer {
+    background-color: #c9c9c9;
+    border: solid 1px; color: #7c7c7d;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.lista {
+    margin-right: 4vw;
+}
+.footercontactanos {
+    font-size: 4vh;
+    font-weight: 400;
+    color: #7c7c7d;
+    display: grid;
+    justify-content: center;
+}
+.footercontactanos_contenido {
+    font-size: 3vh;
+    color: #7c7c7d;
+    font-weight: 200;
+    text-decoration: none;
+    display: grid;
+    justify-content: center;
+    align-items: flex-end;
+}
+.redessociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redessociales_imagenes{
+    width: 100%;
+    height: 100%;
+    margin: 0vh 0.8vw;
+}
+
+/* Main */
+.maximiza_titulo {
+    font-size: 4.5vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.maximiza_texto {
+    font-size: 3.5vh;
+    max-width: -8vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 590;
+    margin-top: 0vh;
+    margin-left: 0vw;
+    text-align: center;
+}
+.maximiza_imagen{
+    width: 95%; 
+    height: 60%;
+    margin-top: 0.5vh;
+    margin-left: 4vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.maximiza_boton{
+    display: grid;
+    margin-left: 0vw;
+    font-size: 3vh;
+    color: #c9c9c9;
+    background-color: black;
+    align-items: initial;
+    margin-top: -18vh;
+}
+.carrousel {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+}
+.productos_titulo {
+    display: grid;
+    font-size: 4.5vh;
+    justify-content: center;
+    text-align: center;
+}
+.carousel-item img{
+    height: 45vh;
+    width: 10vw;
+    border: solid 3px;
+}
+.boton_carousel {
+    display: grid;
+    font-size: 2vh;
+    justify-content: center;
+    background-color: black;
+    border: solid 1px; border-color: black;
+}
+/* Productos */
+.backgroundproductos {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #c9c9c9;
+    background-image: url(./imagenes/New Project.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 5vh;
+}
+.paneles_titulo {
+    display: grid;
+    font-size: 4vh;
+    color: black;
+    font-weight: 600;
+    justify-content: center;
+}
+.fichaproductos {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.fichaproductos_imagen{
+    border: solid 3px;
+}
+.fichaproductos button {
+    font-size: 2.5vh;
+    background-color: black;
+    border: #c9c9c9;
+}
+/* Nosotros */
+.nosotros_titulo {
+    font-size: 4.5vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+.nosotros_texto {
+    font-size: 3.2vh;
+    max-width: -8vw;
+    display: grid;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 590;
+    text-align: center;
+}
+.nosotros_imagen {
+    border: solid 2px;
+    height: 93%;
+    width: 100%;
+}
+/* Contacto */
+iframe {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+}
+.boton_contacto {
+    display: grid;
+    justify-content: center;
+}
+
+/* FAQ */
+.faq_titulo {
+    display: grid;
+    justify-content: center;
+    font-size: 4vh;
+    text-decoration: underline;
+    text-align: center;
+}
+.faq_contenido {
+    display: grid;
+    justify-content: center;
+    font-size: 2vh;
+}
+.accordion_editar { /* Con esto edito el background cuando se despliega */
+}
+/* Media Query */
+
