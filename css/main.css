@@ -1,0 +1,91 @@
+li ul {
+  text-decoration: none; }
+
+header {
+  font-size: 3.45vh;
+  width: 100%;
+  font-family: 'Cinzel', serif;
+  border: solid 1px; }
+
+.navbar-toggler-icon {
+  /* Icono Hamburguesa, arreglar dsp */ }
+
+nav img {
+  height: 8vh;
+  margin-top: 1vh; }
+
+.navbar-brand {
+  margin-left: 3.4vw; }
+
+.navbar-nav {
+  color: #c9c9c9; }
+
+.nav-link {
+  margin-left: 8.2vw;
+  margin-top: 1vh; }
+
+.nav-link:hover {
+  font-weight: 500;
+  transition: all 0.3s;
+  -o-transition-delay: 0.85s;
+  transition-delay: 0.25s; }
+
+.boxheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh; }
+
+.background {
+  background-repeat: no-repeat;
+  background-color: #c9c9c9;
+  background-repeat: no-repeat;
+  background-image: url(../imagenes/gif.gif);
+  background-size: cover;
+  padding-bottom: 1.5vh; }
+
+.boxfooter {
+  background-color: #7c7c7d;
+  color: #c9c9c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
+
+.footer {
+  background-color: #c9c9c9;
+  border: solid 1px;
+  color: #7c7c7d;
+  padding-top: 2vh;
+  padding-bottom: 2vh; }
+
+.lista {
+  margin-right: 4vw; }
+
+.footercontactanos {
+  font-size: 4vh;
+  font-weight: 400;
+  color: #7c7c7d;
+  display: grid;
+  justify-content: center; }
+
+.footercontactanos_contenido {
+  font-size: 3vh;
+  color: #7c7c7d;
+  font-weight: 200;
+  text-decoration: none;
+  display: grid;
+  justify-content: center;
+  align-items: flex-end; }
+
+.redessociales {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.redessociales_imagenes {
+  width: 100%;
+  height: 100%;
+  margin: 0vh 0.8vw; }

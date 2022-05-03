@@ -1,0 +1,39 @@
+ 
+li ul {
+    text-decoration: none;
+}
+header {
+    font-size: 3.45vh;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    border: solid 1px;
+}
+.navbar-toggler-icon { /* Icono Hamburguesa, arreglar dsp */
+}
+nav img {
+    height: 8vh;
+    margin-top: 1vh;
+}
+.navbar-brand {
+    margin-left: 3.4vw;
+}
+.navbar-nav {
+    color: #c9c9c9;
+}
+.nav-link {
+    margin-left: 8.2vw;
+    margin-top: 1vh;
+}
+.nav-link:hover {
+    font-weight: 500;
+    transition: all 0.3s;
+    -o-transition-delay: 0.85s;
+    transition-delay: 0.25s;
+}
+.boxheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
