@@ -1,0 +1,124 @@
+body {
+    font-family: 'Cinzel', serif;
+}
+li ul {
+    text-decoration: none;
+}
+/* Header */
+.header {
+    font-size: 2.75vh;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    border-top: solid 1px;
+    border-color: $color-verde;
+    background-color: $color-header;
+}
+    .navbar {
+        & img {
+            height: 6.3vh;
+            margin-top: 1vh;
+            justify-content: left;
+        }
+        .navbar-brand {
+            margin-left: 3.4vw;
+        }
+        .navbar-nav {
+            color: $color-principal;
+        }
+        .nav-link {
+            margin-left: 8.2vw;
+            margin-top: 1vh;
+            color: $color-verde;
+    
+            &:hover {      
+                border-bottom: solid 3px;
+                color: $color-verde;
+                border-color: $color-verde;
+                transition: all 0.3s;
+                -o-transition-delay: 0.85s;
+                transition-delay: 0.25s;
+        }
+        }
+    }
+/* Boxheader */
+.boxheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    background-color: $color-verde;
+    color: white;
+}
+/* Background */
+.background {
+    background-repeat: no-repeat;
+    background-color: $color-principal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    padding-bottom: 0.1vh;
+    background-image: url(../imagenes/nordic-harvest-featured-test.gif);
+}
+.intentodeopacidad {
+    opacity: 0.9;
+    background-color: $color-principal;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+.backgroundcolor_productos {
+    opacity: 0.92;
+    background-color: $color-contrario-principal;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+/* Footer */
+.boxfooter {
+    background-color: $color-verde;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
+.footer {
+    background-color: $color-principal;
+    border: solid 1px; color: $color-verde;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    &contactanos {
+        font-size: 4vh;
+        font-weight: 400;
+        color: $color-verde;
+        display: grid;
+        justify-content: center;
+        &_contenido {
+            font-size: 3vh;
+            color: $color-verde;
+            font-weight: 200;
+            text-decoration: none;
+            display: grid;
+            justify-content: center;
+            align-items: flex-end;
+        }
+    }
+.redessociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        &_imagenes{
+        width: 60%;
+        height: 60%;
+        margin: 0vh 6vw;
+            &:hover {
+                opacity: 0.8;
+    } 
+    }
+}
+.lista {
+    margin-right: 4vw;
+    }
+}

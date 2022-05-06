@@ -1,0 +1,15 @@
+/* FAQ */
+.faq_titulo {
+    display: grid;
+    justify-content: center;
+    font-size: 4vh;
+    text-decoration: underline;
+    text-align: center;
+}
+.faq_contenido {
+    display: grid;
+    justify-content: center;
+    font-size: 2vh;
+}
+.accordion_editar { /* Con esto edito el background cuando se despliega */
+}
