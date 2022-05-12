@@ -105,6 +105,12 @@ li ul {
             align-items: flex-end;
         }
     }
+.botonfooter {
+    @include botones;
+    &:hover {
+    @include botoneshover
+}
+ }
 .redessociales {
     display: flex;
     justify-content: center;
