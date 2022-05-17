@@ -1,8 +1,8 @@
 /* Principal MAP*/
-$color-principal: #c9c9c9;
-$color-contrario-principal: #c0c0c0;
+$color-principal: #F1F2F4;
+$color-contrario-principal: #f1f2f4;
 $color-verde: #00893c;
-$color-header: #dcdcdc;
+$color-header: #F1F2F4;
 
 
 
@@ -26,6 +26,7 @@ $color-header: #dcdcdc;
 @mixin botoneshover {
     transition: all 0.3s ease;
     position: relative;
+    text-decoration: none;
     background-color: $color-principal;
     color: $color-verde;
     border: solid 1px;

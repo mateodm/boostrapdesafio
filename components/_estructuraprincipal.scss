@@ -1,17 +1,23 @@
 body {
     font-family: 'Cinzel', serif;
 }
+.row {
+    max-width: 99.6vw;
+}
 li ul {
     text-decoration: none;
 }
 /* Header */
 .header {
-    font-size: 2.75vh;
+    font-size: 3vh;
     width: 100%;
     font-family: 'Cinzel', serif;
-    border-top: solid 1px;
-    border-color: $color-verde;
     background-color: $color-header;
+}
+.logo {
+        & img {
+            height: 16vh;
+        }
 }
     .navbar {
         & img {
@@ -20,13 +26,13 @@ li ul {
             justify-content: left;
         }
         .navbar-brand {
-            margin-left: 3.4vw;
         }
         .navbar-nav {
             color: $color-principal;
+            margin-left: 8vw;
         }
         .nav-link {
-            margin-left: 8.2vw;
+            margin-left: 7vw;
             margin-top: 1vh;
             color: $color-verde;
     
@@ -59,7 +65,6 @@ li ul {
     background-size: cover;
     opacity: 1;
     padding-bottom: 0.1vh;
-    background-image: url(../imagenes/nordic-harvest-featured-test.gif);
 }
 .intentodeopacidad {
     opacity: 0.9;
@@ -128,3 +133,14 @@ li ul {
     margin-right: 4vw;
     }
 }
+/* Testimonios */
+    .testimonial-card .card-up { height: 120px; overflow: hidden; border-top-left-radius:
+    0.25rem; border-top-right-radius: 0.25rem; } 
+    .testimonial-card .avatar { width: 110px;
+    margin-top: -60px; overflow: hidden; border: 3px solid #fff; border-radius: 50%; }
+    .btn {
+        @include botones;
+        border: solid 0px;
+        height: auto;
+        font-size: 1vw;
+    }

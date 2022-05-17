@@ -3,31 +3,33 @@
 body {
   font-family: 'Cinzel', serif; }
 
+.row {
+  max-width: 99.6vw; }
+
 li ul {
   text-decoration: none; }
 
 /* Header */
 .header {
-  font-size: 2.75vh;
+  font-size: 3vh;
   width: 100%;
   font-family: 'Cinzel', serif;
-  border-top: solid 1px;
-  border-color: #00893c;
-  background-color: #dcdcdc; }
+  background-color: #F1F2F4; }
+
+.logo img {
+  height: 16vh; }
 
 .navbar img {
   height: 6.3vh;
   margin-top: 1vh;
   justify-content: left; }
 
-.navbar .navbar-brand {
-  margin-left: 3.4vw; }
-
 .navbar .navbar-nav {
-  color: #c9c9c9; }
+  color: #F1F2F4;
+  margin-left: 8vw; }
 
 .navbar .nav-link {
-  margin-left: 8.2vw;
+  margin-left: 7vw;
   margin-top: 1vh;
   color: #00893c; }
   .navbar .nav-link:hover {
@@ -52,22 +54,21 @@ li ul {
 /* Background */
 .background {
   background-repeat: no-repeat;
-  background-color: #c9c9c9;
+  background-color: #F1F2F4;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
-  padding-bottom: 0.1vh;
-  background-image: url(../imagenes/nordic-harvest-featured-test.gif); }
+  padding-bottom: 0.1vh; }
 
 .intentodeopacidad {
   opacity: 0.9;
-  background-color: #c9c9c9;
+  background-color: #F1F2F4;
   padding-bottom: 1vh;
   padding-top: 1vh; }
 
 .backgroundcolor_productos {
   opacity: 0.92;
-  background-color: #c0c0c0;
+  background-color: #f1f2f4;
   padding-bottom: 3vh;
   padding-top: 3vh; }
 
@@ -82,7 +83,7 @@ li ul {
   padding-bottom: 1vh; }
 
 .footer {
-  background-color: #c9c9c9;
+  background-color: #F1F2F4;
   border: solid 1px;
   color: #00893c;
   padding-top: 2vh;
@@ -118,7 +119,8 @@ li ul {
     .footer .botonfooter:hover {
       transition: all 0.3s ease;
       position: relative;
-      background-color: #c9c9c9;
+      text-decoration: none;
+      background-color: #F1F2F4;
       color: #00893c;
       border: solid 1px;
       border-color: #00893c; }
@@ -135,33 +137,46 @@ li ul {
   .footer .lista {
     margin-right: 4vw; }
 
+/* Testimonios */
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem; }
+
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%; }
+
+.btn {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 1vh 2vw 1vh 2vw;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+  margin-left: 0vw;
+  font-size: 2.85vh;
+  color: white;
+  background-color: #00893c;
+  text-decoration: none;
+  border: solid 0px;
+  height: auto;
+  font-size: 1vw; }
+
 /* Main */
 .maximiza_titulo, .paneles_titulo {
   font-size: 4.5vh;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
   display: grid;
   justify-content: center;
   text-align: center; }
-
-.maximiza_texto {
-  font-size: 3.3vh;
-  max-width: -8vw;
-  display: flex;
-  justify-content: center;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 590;
-  margin-top: -0.2vh;
-  margin-left: 0vw;
-  text-align: center; }
-
-.maximiza_imagen {
-  width: 95%;
-  height: 60%;
-  margin-top: 0.5vh;
-  margin-left: 4vw;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  opacity: 1; }
 
 .maximiza_boton {
   display: grid;
@@ -181,23 +196,26 @@ li ul {
   .maximiza_boton:hover {
     transition: all 0.3s ease;
     position: relative;
-    background-color: #c9c9c9;
+    text-decoration: none;
+    background-color: #F1F2F4;
     color: #00893c;
     border: solid 1px;
     border-color: #00893c; }
 
 /* Productos Card Group */
 /* Carousel */
-.carrousel {
-  display: flex;
-  justify-content: center;
-  font-size: 2.5vw; }
+.carousel {
+  background-image: url(../imagenes/contenedores.png);
+  height: 65vh;
+  background-size: cover; }
 
 .productos_titulo {
   display: grid;
   font-size: 4.5vh;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  padding: 0px 0px;
+  max-width: 98vw; }
 
 .carousel-item img {
   height: 45vh;
@@ -227,10 +245,14 @@ li ul {
   .boton_carousel:hover {
     transition: all 0.3s ease;
     position: relative;
-    background-color: #c9c9c9;
+    text-decoration: none;
+    background-color: #F1F2F4;
     color: #00893c;
     border: solid 1px;
     border-color: #00893c; }
+
+.card-up {
+  background-color: #00893c; }
 
 /* Productos */
 .fichaproductos {
