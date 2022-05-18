@@ -16,8 +16,10 @@ li ul {
   font-family: 'Cinzel', serif;
   background-color: #F1F2F4; }
 
-.logo img {
-  height: 16vh; }
+.logo {
+  margin: auto; }
+  .logo img {
+    height: 14.5vh; }
 
 .navbar img {
   height: 6.3vh;
@@ -103,9 +105,6 @@ li ul {
       justify-content: center;
       align-items: flex-end; }
   .footer .botonfooter {
-    display: grid;
-    justify-content: center;
-    align-items: center;
     width: fit-content;
     height: fit-content;
     padding: 1vh 2vw 1vh 2vw;
@@ -123,7 +122,8 @@ li ul {
       background-color: #F1F2F4;
       color: #00893c;
       border: solid 1px;
-      border-color: #00893c; }
+      border-color: #00893c;
+      font-family: 'Cinzel', serif; }
   .footer .redessociales {
     display: flex;
     justify-content: center;
@@ -152,9 +152,6 @@ li ul {
   border-radius: 50%; }
 
 .btn {
-  display: grid;
-  justify-content: center;
-  align-items: center;
   width: fit-content;
   height: fit-content;
   padding: 1vh 2vw 1vh 2vw;
@@ -166,22 +163,38 @@ li ul {
   background-color: #00893c;
   text-decoration: none;
   border: solid 0px;
-  height: auto;
   font-size: 1vw; }
 
 /* Main */
 .maximiza_titulo, .paneles_titulo {
-  font-size: 4.5vh;
+  font-family: 'Nunito', sans-serif;
+  font-size: 5vh;
+  font-weight: 900;
   padding: 0px 0px 0px 0px;
   margin: 0px;
   display: grid;
   justify-content: center;
-  text-align: center; }
-
-.maximiza_boton {
-  display: grid;
-  justify-content: center;
+  text-align: center;
   align-items: center;
+  margin-top: 10vh;
+  text-shadow: 20px; }
+
+/* Productos Card Group */
+/* Carousel */
+.carousel {
+  background-image: url(../imagenes/contenedores.png);
+  height: auto;
+  padding: 13vh;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center; }
+
+.carousel_grilla {
+  display: grid;
+  justify-content: center; }
+
+.carousel_grilla_envios {
   width: fit-content;
   height: fit-content;
   padding: 1vh 2vw 1vh 2vw;
@@ -192,22 +205,19 @@ li ul {
   color: white;
   background-color: #00893c;
   text-decoration: none;
-  margin-top: -18vh; }
-  .maximiza_boton:hover {
+  font-weight: 500;
+  margin-top: 2vh;
+  font-family: 'Cinzel', serif;
+  font-size: 1.8vw; }
+  .carousel_grilla_envios:hover {
     transition: all 0.3s ease;
     position: relative;
     text-decoration: none;
     background-color: #F1F2F4;
     color: #00893c;
     border: solid 1px;
-    border-color: #00893c; }
-
-/* Productos Card Group */
-/* Carousel */
-.carousel {
-  background-image: url(../imagenes/contenedores.png);
-  height: 65vh;
-  background-size: cover; }
+    border-color: #00893c;
+    font-family: 'Cinzel', serif; }
 
 .productos_titulo {
   display: grid;
@@ -227,9 +237,6 @@ li ul {
   margin-left: 2.5vw; }
 
 .boton_carousel {
-  display: grid;
-  justify-content: center;
-  align-items: center;
   width: fit-content;
   height: fit-content;
   padding: 1vh 2vw 1vh 2vw;
@@ -240,7 +247,7 @@ li ul {
   color: white;
   background-color: #00893c;
   text-decoration: none;
-  margin-bottom: 2vh;
+  margin-bottom: 10vh;
   margin-left: 9vw; }
   .boton_carousel:hover {
     transition: all 0.3s ease;
@@ -249,7 +256,8 @@ li ul {
     background-color: #F1F2F4;
     color: #00893c;
     border: solid 1px;
-    border-color: #00893c; }
+    border-color: #00893c;
+    font-family: 'Cinzel', serif; }
 
 .card-up {
   background-color: #00893c; }

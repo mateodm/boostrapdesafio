@@ -9,9 +9,6 @@ $color-header: #F1F2F4;
 /* Secundario */
 @mixin botones
  {
-    display: grid;
-    justify-content: center;
-    align-items: center;
     width: fit-content;
     height: fit-content;
     padding: 1vh 2vw 1vh 2vw;
@@ -30,5 +27,6 @@ $color-header: #F1F2F4;
     background-color: $color-principal;
     color: $color-verde;
     border: solid 1px;
-    border-color: $color-verde; 
+    border-color: $color-verde;
+    font-family: 'Cinzel', serif;
 }

@@ -15,8 +15,9 @@ li ul {
     background-color: $color-header;
 }
 .logo {
+        margin: auto;
         & img {
-            height: 16vh;
+            height: 14.5vh;
         }
 }
     .navbar {
@@ -141,6 +142,5 @@ li ul {
     .btn {
         @include botones;
         border: solid 0px;
-        height: auto;
         font-size: 1vw;
     }
