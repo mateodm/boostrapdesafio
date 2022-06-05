@@ -9,37 +9,40 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-top: 10vh;
-    text-shadow: 20px;
 }
-/* Productos Card Group */
-
+.card {
+    font-family: 'Nunito', sans-serif;
+        &-title {
+            font-size: 2.3vw;
+            text-align: center;
+            font-weight: 500;
+        }
+        &-text {
+            font-size: 0.98vw;
+        }
+}
 /* Carousel */
-.carousel {
-    background-image: url(../imagenes/contenedores.png);
-    height: auto;
-    padding: 13vh;
-    background-size: cover;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+.carousel-item img{
+    width: 100vw;
+    height: 60vh;
+    opacity: 0.94;
 }
-.carousel_grilla {
-    display: grid;
-    justify-content: center;
-
+.carousel-caption {
+    font-size: 4.3vh;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
 }
 .carousel_grilla_envios{
     @include botones;
     font-weight: 500;
     margin-top: 2vh;
     font-family: 'Cinzel', serif;
-    font-size: 1.8vw;
+    font-size: 3vh;
         &:hover {
-            @include botoneshover
+            border: solid 1px; border-color: $color-header;
+            color: white;
         }
-        
-}
+    }
 .productos_titulo {
     display: grid;
     font-size: 4.5vh;
@@ -48,15 +51,9 @@
     padding: 0px 0px;
     max-width: 98vw;
 }
-.carousel-item img{
-    height: 45vh;
-    width: 10vw;
-    border: solid 3px;
-}
-.carousel-inner {
-    width: 90%;
-    margin-left: 2.5vw;
-}
+.botones_productos {
+    @include botones;
+ }
 .boton_carousel {
     @include botones;
     margin-bottom: 10vh;
@@ -67,4 +64,10 @@
     }
 .card-up {
     background-color: $color-verde;
+}
+.testimonial {
+    margin-right: 4.7vw;
+}
+.avatar img {
+    height: 100%;
 }

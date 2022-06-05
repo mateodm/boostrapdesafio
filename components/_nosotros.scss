@@ -1,10 +1,11 @@
 /* Nosotros */
 .nosotros_titulo {
-    font-size: 4.5vh;
+    font-size: 4.8vh;
     display: grid;
     justify-content: center;
     text-align: center;
     text-decoration: underline;
+    font-family: 'Nunito', sans-serif;
 }
 .nosotros_texto {
     font-size: 3.2vh;
@@ -16,7 +17,7 @@
     text-align: center;
 }
 .nosotros_imagen {
-    border: solid 2px;
-    height: 93%;
+    margin-top: 0.6vh;
+    height: 79%;
     width: 100%;
 }

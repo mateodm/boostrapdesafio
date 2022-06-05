@@ -1,4 +1,0 @@
-Agregue un Mixin para los botones.
-Agregue un extend en una de las clases de los titulos. (productos.scss)
-Agregue meta titulos, keywords y description.
-Site map xml.

@@ -30,7 +30,7 @@ li ul {
         }
         .navbar-nav {
             color: $color-principal;
-            margin-left: 8vw;
+            margin-right: 9vw;
         }
         .nav-link {
             margin-left: 7vw;
@@ -57,6 +57,7 @@ li ul {
     padding-bottom: 1.5vh;
     background-color: $color-verde;
     color: white;
+    text-align: center;
 }
 /* Background */
 .background {
@@ -109,6 +110,9 @@ li ul {
             display: grid;
             justify-content: center;
             align-items: flex-end;
+                &:hover {
+                    opacity: 0.6;
+                }
         }
     }
 .botonfooter {
@@ -135,12 +139,22 @@ li ul {
     }
 }
 /* Testimonios */
-    .testimonial-card .card-up { height: 120px; overflow: hidden; border-top-left-radius:
-    0.25rem; border-top-right-radius: 0.25rem; } 
-    .testimonial-card .avatar { width: 110px;
-    margin-top: -60px; overflow: hidden; border: 3px solid #fff; border-radius: 50%; }
+    .testimonial-card .card-up { 
+        height: 120px; 
+        overflow: hidden; 
+        border-top-left-radius: 0.25rem; 
+        border-top-right-radius: 0.25rem; } 
+    .testimonial-card .avatar {
+        width: 130px;
+        margin-top: -60px;
+        overflow: hidden; 
+        border: 3px solid #fff; 
+    border-radius: 50%; 
+}
     .btn {
         @include botones;
         border: solid 0px;
-        font-size: 1vw;
+            &:hover {
+                @include botoneshover;
+            }
     }

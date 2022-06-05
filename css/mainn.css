@@ -28,7 +28,7 @@ li ul {
 
 .navbar .navbar-nav {
   color: #F1F2F4;
-  margin-left: 8vw; }
+  margin-right: 9vw; }
 
 .navbar .nav-link {
   margin-left: 7vw;
@@ -51,7 +51,8 @@ li ul {
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
   background-color: #00893c;
-  color: white; }
+  color: white;
+  text-align: center; }
 
 /* Background */
 .background {
@@ -104,6 +105,8 @@ li ul {
       display: grid;
       justify-content: center;
       align-items: flex-end; }
+      .footercontactanos_contenido:hover {
+        opacity: 0.6; }
   .footer .botonfooter {
     width: fit-content;
     height: fit-content;
@@ -122,8 +125,7 @@ li ul {
       background-color: #F1F2F4;
       color: #00893c;
       border: solid 1px;
-      border-color: #00893c;
-      font-family: 'Cinzel', serif; }
+      border-color: #00893c; }
   .footer .redessociales {
     display: flex;
     justify-content: center;
@@ -145,7 +147,7 @@ li ul {
   border-top-right-radius: 0.25rem; }
 
 .testimonial-card .avatar {
-  width: 110px;
+  width: 130px;
   margin-top: -60px;
   overflow: hidden;
   border: 3px solid #fff;
@@ -162,8 +164,15 @@ li ul {
   color: white;
   background-color: #00893c;
   text-decoration: none;
-  border: solid 0px;
-  font-size: 1vw; }
+  border: solid 0px; }
+  .btn:hover {
+    transition: all 0.3s ease;
+    position: relative;
+    text-decoration: none;
+    background-color: #F1F2F4;
+    color: #00893c;
+    border: solid 1px;
+    border-color: #00893c; }
 
 /* Main */
 .maximiza_titulo, .paneles_titulo {
@@ -175,24 +184,27 @@ li ul {
   display: grid;
   justify-content: center;
   text-align: center;
-  align-items: center;
-  margin-top: 10vh;
-  text-shadow: 20px; }
+  align-items: center; }
 
-/* Productos Card Group */
+.card {
+  font-family: 'Nunito', sans-serif; }
+  .card-title {
+    font-size: 2.3vw;
+    text-align: center;
+    font-weight: 500; }
+  .card-text {
+    font-size: 0.98vw; }
+
 /* Carousel */
-.carousel {
-  background-image: url(../imagenes/contenedores.png);
-  height: auto;
-  padding: 13vh;
-  background-size: cover;
-  display: grid;
-  align-items: center;
-  justify-content: center; }
+.carousel-item img {
+  width: 100vw;
+  height: 60vh;
+  opacity: 0.94; }
 
-.carousel_grilla {
-  display: grid;
-  justify-content: center; }
+.carousel-caption {
+  font-size: 4.3vh;
+  font-weight: 800;
+  font-family: 'Nunito', sans-serif; }
 
 .carousel_grilla_envios {
   width: fit-content;
@@ -208,16 +220,11 @@ li ul {
   font-weight: 500;
   margin-top: 2vh;
   font-family: 'Cinzel', serif;
-  font-size: 1.8vw; }
+  font-size: 3vh; }
   .carousel_grilla_envios:hover {
-    transition: all 0.3s ease;
-    position: relative;
-    text-decoration: none;
-    background-color: #F1F2F4;
-    color: #00893c;
     border: solid 1px;
-    border-color: #00893c;
-    font-family: 'Cinzel', serif; }
+    border-color: #F1F2F4;
+    color: white; }
 
 .productos_titulo {
   display: grid;
@@ -227,14 +234,17 @@ li ul {
   padding: 0px 0px;
   max-width: 98vw; }
 
-.carousel-item img {
-  height: 45vh;
-  width: 10vw;
-  border: solid 3px; }
-
-.carousel-inner {
-  width: 90%;
-  margin-left: 2.5vw; }
+.botones_productos {
+  width: fit-content;
+  height: fit-content;
+  padding: 1vh 2vw 1vh 2vw;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+  margin-left: 0vw;
+  font-size: 2.85vh;
+  color: white;
+  background-color: #00893c;
+  text-decoration: none; }
 
 .boton_carousel {
   width: fit-content;
@@ -256,11 +266,16 @@ li ul {
     background-color: #F1F2F4;
     color: #00893c;
     border: solid 1px;
-    border-color: #00893c;
-    font-family: 'Cinzel', serif; }
+    border-color: #00893c; }
 
 .card-up {
   background-color: #00893c; }
+
+.testimonial {
+  margin-right: 4.7vw; }
+
+.avatar img {
+  height: 100%; }
 
 /* Productos */
 .fichaproductos {
@@ -288,11 +303,12 @@ li ul {
 
 /* Nosotros */
 .nosotros_titulo {
-  font-size: 4.5vh;
+  font-size: 4.8vh;
   display: grid;
   justify-content: center;
   text-align: center;
-  text-decoration: underline; }
+  text-decoration: underline;
+  font-family: 'Nunito', sans-serif; }
 
 .nosotros_texto {
   font-size: 3.2vh;
@@ -304,14 +320,14 @@ li ul {
   text-align: center; }
 
 .nosotros_imagen {
-  border: solid 2px;
-  height: 93%;
+  margin-top: 0.6vh;
+  height: 79%;
   width: 100%; }
 
 /* Contacto */
 iframe {
-  width: 100%;
-  height: 50vh;
+  width: 110%;
+  height: 98%;
   display: grid; }
 
 .boton_contacto {
@@ -322,14 +338,102 @@ iframe {
 .faq_titulo {
   display: grid;
   justify-content: center;
-  font-size: 4vh;
-  text-decoration: underline;
-  text-align: center; }
+  font-size: 5vh;
+  text-align: center;
+  font-family: 'Nunito', sans-serif; }
 
 .faq_contenido {
   display: grid;
   justify-content: center;
-  font-size: 2vh; }
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5vh; }
 
-.accordion_editar {
-  /* Con esto edito el background cuando se despliega */ }
+.accordion {
+  /* Con esto edito el background cuando se despliega */
+  width: 60vw;
+  background-color: white; }
+
+.accordion-button {
+  background-color: #00893c;
+  color: white; }
+
+/* Tablet */
+@media only screen and (min-width: 700px) and (max-width: 991px) {
+  /* Menu hamburguesa */
+  .navbar-toggler img {
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    height: 20%;
+    width: 30%; }
+  /* Sacar border bottom */
+  .nav-link {
+    border-bottom: solid 0px; }
+  /* Texto Box Header */
+  .boxheader {
+    font-size: 2vw; }
+  /* Productos Texto */
+  .card-title {
+    font-weight: 600;
+    font-size: 2.2vw;
+    text-align: center; }
+  .card-text {
+    font-size: 1.9vw;
+    text-align: start; }
+  .dark-grey-text {
+    font-size: 1.5vw; }
+  .botones_productos {
+    font-size: 2.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: auto; }
+  /* Nosotros Texto e Imagen */
+  .nosotros_titulo {
+    font-size: 6vh; }
+  .nosotros_texto {
+    font-size: 2.9vh; }
+  .nosotros_imagen {
+    height: 90%;
+    width: 35vw; }
+  /* Contacto iframe */
+  iframe {
+    width: 42vw; } }
+
+/* Movil */
+@media only screen and (max-width: 692px) {
+  /* Menu hamburguesa */
+  .navbar-toggler img {
+    margin-left: 11vw;
+    margin-bottom: 3vh;
+    height: 20%;
+    width: 30%; }
+  /* Box Header */
+  .boxheader {
+    font-size: 3.6vw; }
+  /* Carousel Ajuste Texto */
+  .carousel-caption {
+    font-size: 3.1vh; }
+  .carousel_grilla_envios {
+    font-size: 2.3vh; }
+  /* Productos Texto */
+  .card-title {
+    font-weight: 600;
+    font-size: 5vw;
+    text-align: center; }
+  .card-text {
+    font-size: 4vw;
+    text-align: start; }
+  .dark-grey-text {
+    font-size: 4vw; }
+  .botones_productos {
+    font-size: 5vw;
+    margin: auto;
+    padding-left: 3vw;
+    padding-right: 3vw; }
+  /* Testimonios */
+  .testimonial {
+    margin: auto; }
+  /* Iframe */
+  iframe {
+    margin-top: 2vh;
+    height: 60vh;
+    width: 100vw; } }
