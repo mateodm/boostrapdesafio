@@ -412,6 +412,16 @@ iframe {
   /* Carousel Ajuste Texto */
   .carousel-caption {
     font-size: 3.1vh; }
+    .carousel_grilla_envios {
+      font-size: 3.4vw;
+    }
+    .footercontactanos_contenido {
+      font-size: 6vw;
+      margin-left: 4vw;
+    }
+    .botonfooter {
+      text-align: center;
+    }
   .carousel_grilla_envios {
     font-size: 2.3vh; }
   /* Productos Texto */
@@ -436,4 +446,16 @@ iframe {
   iframe {
     margin-top: 2vh;
     height: 60vh;
-    width: 100vw; } }
+    width: 100vw; } 
+  /* FAQ */
+  .accordion-header {
+    width: 91vw;
+  }
+  .accordion-body {
+    width: 91vw;
+  }
+  .accordion-item {
+    width: 91vw;
+  }
+  
+  }
